@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fjalla+One&family=Indie+Flower&family=Nunito:wght@500&family=Rock+3D&family=Sedgwick+Ave&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+    font-family: 'Pacifico', cursive;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    background: url("./Image/bc3.jpg") no-repeat center;
+    background-size: cover;
+   position: relative;
+}
+.navWrappper{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffff;
+    box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 8%);
+    z-index: 997;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    
+}
+.navWrappper nav {
+    flex-basis: 50%;
+  
+}
+.navWrappper nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.header-social-links{
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    animation: zoom-in-zoom-out ease-out 1s ;
+    
+
+}
+
+ .profilepic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    font-family: 'Ms Madi', cursive;
+    align-items: center;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+    transform: scale(1);
+    }
+    50% {
+    transform: scale(1.5);
+    }
+    100% {
+    transform: scale(1);
+    }
+    }
+section h1{
+    font-size: 50px;
+    color: #fff;
+    line-height: 5rem;
+    letter-spacing: 3px;
+}
+section p{
+    color: lightgrey;
+    font-size: 29px;
+    letter-spacing: 4px;
+}
+section a{
+    margin-top: 20px;
+    background-color: #5a01a7;
+    padding: 10px 10px 0 25px ;
+    border-radius: 40px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+}
+@media screen and (max-width:480px) {
+    .navWrappper nav{
+        display: none;
+    }
+}
