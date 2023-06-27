@@ -80,17 +80,7 @@ section{
     font-family: 'Ms Madi', cursive;
     align-items: center;
 }
-@keyframes zoom-in-zoom-out {
-    0% {
-    transform: scale(1);
-    }
-    50% {
-    transform: scale(1.5);
-    }
-    100% {
-    transform: scale(1);
-    }
-    }
+
 section h1{
     font-size: 50px;
     color: #fff;
@@ -168,4 +158,10 @@ svg {
 
 @keyframes stroke-offset{
 	100% {stroke-dashoffset: -35%;}
+}
+#demo{
+    width: 130%;
+    margin-top: 29px;
+    
+    color: #a9baff;
 }
