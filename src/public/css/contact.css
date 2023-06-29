@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fjalla+One&family=Indie+Flower&family=Nunito:wght@500&family=Rock+3D&family=Sedgwick+Ave&family=Shizuru&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: grey;
+}
+ul li {
+  list-style: none;
+}
+main {
+  height: 100vh;
+  width: 100%;
+}
+
+.contact{
+    background: #a7bcff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formWrapper{
+    background-color: white;
+    padding: 20px 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #5b5b8d;
+   
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+    input,textarea {
+      padding: 15px;
+      border: none;
+      width: 250px;
+      border:0.5px solid #a7bcff;
+      outline: none;
+    }
+
+    button {
+      background-color: #7b96ec;
+      color: white;
+      padding: 10px 35px 10px 35px;
+      border: none;
+      cursor: pointer;
+    }
