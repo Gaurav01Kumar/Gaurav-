@@ -1,0 +1,56 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+    font-family: 'Pacifico', cursive;
+}
+
+ul li a:hover{
+    font-weight: 900;
+    color: #BD0034;
+}
+.navWrappper{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #ffff;
+    box-shadow: 0px 0px 25px 0 rgb(0 0 0 / 8%);
+    z-index: 997;
+    font-size: 20px;
+    text-align: center;
+    position: fixed;
+    
+}
+
+.navWrappper nav {
+    flex-basis: 50%;
+  
+}
+.navWrappper nav ul{
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+.header-social-links{
+    width: 130px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.profilepic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.logo{
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+    font-family: 'Ms Madi', cursive;
+    align-items: center;
+}

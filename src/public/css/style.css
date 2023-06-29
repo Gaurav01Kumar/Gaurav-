@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Fjalla+One&family=Indie+Flower&family=Nunito:wght@500&family=Rock+3D&family=Sedgwick+Ave&family=Shizuru&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+    list-style: none;
+    font-family: 'Pacifico', cursive;
+}
+
+ul li a:hover{
+    font-weight: 900;
+    color: #BD0034;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    /* background: url("./Image/bc3.jpg") no-repeat center;
+    background-size: cover; */
+    background-color:#24263B;
+   position: relative;
+}
+
+section{
+    width: 500px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 40%;
+    left: 33%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: none;
+    animation: zoom-in-zoom-out ease-out 1s ;
+    
+
+}
+
+
+
+section h1{
+    transform: translateX();
+    font-size: 50px;
+    color: #fff;
+    line-height: 5rem;
+    letter-spacing: 3px;
+}
+section p{
+    color: lightgrey;
+    font-size: 29px;
+    letter-spacing: 4px;
+}
+section a{
+    margin-top: 20px;
+    background-color: #5a01a7;
+    padding: 15px  25px ;
+    border-radius: 40px;
+ 
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    
+}
+section a:hover{
+    
+    background-color: #BD0034;
+    transform: scale(1.2);
+}
+@media screen and (max-width:480px) {
+    .navWrappper nav{
+        display: none;
+    }
+}
+
+svg {
+    display: block;
+    font: 10.5em 'Montserrat';
+    width: 860px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #f723bb;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #214bf3;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #14f563;
+	animation-delay: -4s;
+}
+.container {
+    display: flex;
+  /*   border:1px solid red; */
+    height: 100%;
+    align-items: center;
+  }
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+#demo{
+    width: 130%;
+    margin-top: 29px;
+    
+    color: #a9baff;
+}
