@@ -11,11 +11,15 @@
     <link rel="stylesheet" href="css/about.css">
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  
+   <style>
+    header{
+      background: transparent;
+    }
+   </style>
 </head>
 <body>
     <main id="indexMain">
-     <%-include("header")  -%>
+     <%-include("header") -%>
     <section id="text">
         <div class="container">
             <svg viewBox="0 0 960 300">
@@ -33,17 +37,17 @@
             </svg>
           </div>
         <p class="smallText" id="demo"> </p>
-        <a href="./about.html">About me</a>
+        <a href="/about">About me</a>
     </section>
     <div class="mobilenav">
         <nav>
             <ul>
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./about.html">About</a></li>
-                <li><a href="./Resume.html">Resume</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about">About</a></li>
+                <li><a href="/resume">Resume</a></li>
                 <!-- <li><a href="Home">Services</a></li> -->
-                <li><a href="./portfolio.html">Portfolio</a></li>
-                <li><a href="./Contact.html">Contact</a></li>
+                <li><a href="/portfolio">Portfolio</a></li>
+                <li><a href="/contact">Contact</a></li>
             </ul>
         </nav>
        </div>
